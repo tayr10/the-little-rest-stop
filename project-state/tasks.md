@@ -16,13 +16,12 @@
 
 ---
 
-## Phase B — Split the HTML file ⬜ NEXT
+## Phase B — Split the HTML file ✅ DONE
 
-- [ ] Extract CSS → `site/style.css`
-- [ ] Extract JS → `site/main.js`
-- [ ] `site/index.html` links to both files
-- [ ] Confirm site still looks correct in browser
-- [ ] Commit: `Phase B: Extract CSS to style.css and JS to main.js`
+- [x] Extract CSS → `site/style.css`
+- [x] Extract JS → `site/main.js`
+- [x] `site/index.html` links to both files — down from 929 lines to 460
+- [x] Commit: `Phase B: Extract CSS to style.css and JS to main.js`
 
 ---
 
@@ -34,37 +33,36 @@
 
 ---
 
-## Phase D — Legal pages ⬜ NOT STARTED
+## Phase D — Legal pages ✅ DONE
 
-- [ ] Generate privacy policy → save as `site/privacy-policy.html`
-- [ ] Generate terms of service → save as `site/terms-of-service.html`
-- [ ] Add footer links in `site/index.html` pointing to both pages
-- [ ] Commit: `Phase D: Privacy policy and terms of service added`
+- [x] Privacy policy → `site/privacy-policy.html`
+- [x] Terms of service → `site/terms-of-service.html`
+- [x] Footer links added in `site/index.html`
 
 ---
 
-## Phase E — Domain + Hosting ⬜ NOT STARTED
+## Phase E — Domain + Hosting ⬜ PARTIAL
 
-- [ ] Create GitHub repo and push
-- [ ] Create Netlify project → connect repo → set publish directory to `site`
-- [ ] Confirm site goes live on a `.netlify.app` URL
-- [ ] Register custom domain (TBD) at Namecheap
+- [x] Create GitHub repo and push → github.com/tayr10/the-little-rest-stop
+- [x] Create Netlify project → publish directory `site`
+- [x] Site live at `the-little-rest-stop.netlify.app` — auto-deploys on every push
+- [ ] Register custom domain at Namecheap (TBD — needs decision on domain name)
 - [ ] Connect custom domain to Netlify
-- [ ] Confirm SSL (`https://`) is active
-- [ ] Log all accounts in a `docs/accounts.md` file
+- [ ] Confirm SSL (`https://`) is active on custom domain
+- [ ] Update sitemap.xml, robots.txt, OG tags, and structured data to real domain
 
 ---
 
-## Phase F — SEO & Analytics ⬜ NOT STARTED
+## Phase F — SEO & Analytics ⬜ PARTIAL
 
-- [ ] Verify `<title>` and `<meta name="description">` are accurate and keyword-rich
-- [ ] Add Open Graph tags
-- [ ] Add JSON-LD LocalBusiness structured data
-- [ ] Create `site/sitemap.xml`
-- [ ] Create `site/robots.txt`
+- [x] `<title>` and `<meta name="description">` verified — accurate and keyword-rich
+- [x] Open Graph tags added
+- [x] JSON-LD Restaurant structured data added (includes hours, address, cuisine type)
+- [x] `site/sitemap.xml` created
+- [x] `site/robots.txt` created
 - [ ] Set up Google Analytics 4 → add tracking script to all pages
 - [ ] Set up Google Search Console → verify → submit sitemap
-- [ ] Commit: `Phase F: SEO and analytics added`
+- [ ] Update domain URLs in sitemap, robots.txt, OG tags once custom domain is live
 
 ---
 
