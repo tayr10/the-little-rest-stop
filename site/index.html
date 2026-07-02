@@ -6,6 +6,47 @@
 <title>The Little Rest Stop | Breakfast & Lunch Diner — Sturbridge, MA</title>
 <meta name="description" content="Sturbridge's favorite neighborhood diner. Homestyle breakfast & lunch made fresh daily. Open 6am–2pm. Cash only. Call 774-304-1100.">
 <meta name="keywords" content="diner Sturbridge MA, breakfast Sturbridge, Little Rest Stop, lunch Sturbridge Massachusetts">
+<!-- Open Graph -->
+<meta property="og:type" content="restaurant">
+<meta property="og:url" content="https://the-little-rest-stop.netlify.app/">
+<meta property="og:title" content="The Little Rest Stop | Breakfast & Lunch Diner — Sturbridge, MA">
+<meta property="og:description" content="Sturbridge's favorite neighborhood diner. Homestyle breakfast & lunch made fresh daily. Open 6am–2pm. Cash only. Call 774-304-1100.">
+<meta property="og:image" content="https://the-little-rest-stop.netlify.app/food5.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Structured Data: Local Business -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "The Little Rest Stop",
+  "telephone": "+17743041100",
+  "email": "littlereststop@outlook.com",
+  "url": "https://the-little-rest-stop.netlify.app",
+  "logo": "https://the-little-rest-stop.netlify.app/logo.jpeg",
+  "image": "https://the-little-rest-stop.netlify.app/food5.png",
+  "description": "Family-run breakfast and lunch diner in Sturbridge, MA. Made from scratch daily. Cash only.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "25 Brookfield Rd",
+    "addressLocality": "Sturbridge",
+    "addressRegion": "MA",
+    "postalCode": "01518",
+    "addressCountry": "US"
+  },
+  "servesCuisine": ["American", "Breakfast", "Diner"],
+  "priceRange": "$",
+  "paymentAccepted": "Cash",
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "06:00", "closes": "14:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "06:00", "closes": "14:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "06:00", "closes": "14:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "06:00", "closes": "14:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "06:00", "closes": "14:00"}
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Fraunces:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -450,7 +491,10 @@
     </div>
     <div class="footer-bot">
       <span>© 2026 The Little Rest Stop · Sturbridge, MA</span>
-      <span>Cash Only · Open Daily Except Tue & Wed · 6am–2pm</span>
+      <div class="footer-legal">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+      </div>
     </div>
   </div>
 </footer>

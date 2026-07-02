@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://the-little-rest-stop.netlify.app/sitemap.xml
