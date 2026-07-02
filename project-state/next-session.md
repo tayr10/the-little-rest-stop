@@ -7,16 +7,16 @@
 
 ## Pick up here
 
-**Phase B — Split the HTML file**
+**Waiting on domain decision** — need to pick a domain name and register it at Namecheap (~$9/yr), then connect it to Netlify.
 
-Extract the CSS (`<style>` block) into `site/style.css` and the JS (`<script>` block)
-into `site/main.js`. Update `site/index.html` to link to both.
-
-See `tasks.md` → Phase B for the full checklist.
+After that: update sitemap.xml, robots.txt, OG tags, and GA4 stream URL to the real domain.
 
 ## Context
 
 - Phase A ✅ complete — project moved, Git initialized, project-state set up
-- Phase B ⬜ next — split 929-line HTML into HTML + CSS + JS
+- Phase B ✅ complete — CSS in `site/style.css`, JS in `site/main.js`, HTML at 460 lines
 - Phase C ✅ complete — real photos and content already in the file
-- Phase D onward not started
+- Phase D ✅ complete — privacy policy and terms of service live, footer linked
+- Phase E ⬜ partial — live at `the-little-rest-stop.netlify.app`; still need custom domain
+- Phase F ✅ complete — GA4 (`G-MZHRJQL07S`), Search Console, sitemap, robots.txt, OG tags, structured data all live
+- Phase G ⬜ not started — pre-launch testing checklist

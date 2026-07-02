@@ -53,16 +53,16 @@
 
 ---
 
-## Phase F — SEO & Analytics ⬜ PARTIAL
+## Phase F — SEO & Analytics ✅ DONE (one item to revisit after custom domain)
 
 - [x] `<title>` and `<meta name="description">` verified — accurate and keyword-rich
 - [x] Open Graph tags added
 - [x] JSON-LD Restaurant structured data added (includes hours, address, cuisine type)
 - [x] `site/sitemap.xml` created
 - [x] `site/robots.txt` created
-- [ ] Set up Google Analytics 4 → add tracking script to all pages
-- [ ] Set up Google Search Console → verify → submit sitemap
-- [ ] Update domain URLs in sitemap, robots.txt, OG tags once custom domain is live
+- [x] Google Analytics 4 set up → Measurement ID `G-MZHRJQL07S` → script added to all three pages
+- [x] Google Search Console verified via GA4 → sitemap submitted
+- [ ] Update domain URLs in sitemap, robots.txt, OG tags, GA4 stream once custom domain is live
 
 ---
 
